@@ -13,6 +13,13 @@
     "timestamps": true
   },
   "attributes": {
+    "username": {
+      "type": "string",
+      "minLength": 3,
+      "unique": false,
+      "configurable": false,
+      "required": true
+    },
     "email": {
       "type": "email",
       "minLength": 6,
