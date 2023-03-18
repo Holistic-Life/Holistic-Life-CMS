@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "level_ten_lives",
+  "info": {
+    "singularName": "level-ten-life",
+    "pluralName": "level-ten-lives",
+    "displayName": "levelTenLife",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "lifeArea": {
+      "type": "string"
+    },
+    "current": {
+      "type": "decimal",
+      "min": 0,
+      "max": 100,
+      "default": 0
+    }
+  }
+}

@@ -68,6 +68,11 @@
     },
     "lastname": {
       "type": "string"
+    },
+    "level_ten_life": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::level-ten-life.level-ten-life"
     }
   }
 }
