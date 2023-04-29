@@ -73,6 +73,22 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::level-ten-life.level-ten-life"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "birthday": {
+      "type": "date"
+    },
+    "country": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "male": {
+      "type": "boolean",
+      "default": true
     }
   }
 }
