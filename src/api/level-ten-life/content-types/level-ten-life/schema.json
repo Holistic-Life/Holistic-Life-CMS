@@ -12,14 +12,8 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "lifeArea": {
-      "type": "string"
-    },
-    "current": {
-      "type": "decimal",
-      "min": 0,
-      "max": 100,
-      "default": 0
+    "lifeAreas": {
+      "type": "json"
     }
   }
 }
