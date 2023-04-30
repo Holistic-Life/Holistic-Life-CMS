@@ -89,6 +89,10 @@
     "male": {
       "type": "boolean",
       "default": true
+    },
+    "mailerlist": {
+      "type": "boolean",
+      "default": true
     }
   }
 }
