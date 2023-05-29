@@ -93,6 +93,9 @@
     "mailerlist": {
       "type": "boolean",
       "default": true
+    },
+    "attribution": {
+      "type": "string"
     }
   }
 }
