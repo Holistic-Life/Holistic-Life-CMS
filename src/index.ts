@@ -5,19 +5,8 @@ export default {
    *
    * This gives you an opportunity to extend code.
    */
-  register({strapi}) {
-    const extensionService = strapi.plugin("graphql").service("extension");
-    extensionService.use(({nexus}) => ({
-      types: [
-        nexus.extendType({
-          type: "UsersPermissionsRegisterInput",
-          definition(t) {
-            // here define fields you need
-            t.string("attribution");
-          },
-        }),
-      ]
-    }));
+  register(/*{strapi}*/) {
+
   },
 
   /**
