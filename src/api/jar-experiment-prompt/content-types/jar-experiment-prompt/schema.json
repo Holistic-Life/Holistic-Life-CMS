@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jar_experiment_prompts",
+  "info": {
+    "singularName": "jar-experiment-prompt",
+    "pluralName": "jar-experiment-prompts",
+    "displayName": "JarExperimentPrompt",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "string"
+    },
+    "prompt": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::jar-experiment.jar-experiment"
+    }
+  }
+}

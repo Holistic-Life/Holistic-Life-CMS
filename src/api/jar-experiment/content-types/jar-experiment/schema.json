@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jar_experiments",
+  "info": {
+    "singularName": "jar-experiment",
+    "pluralName": "jar-experiments",
+    "displayName": "JarExperimentTopic",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "prompts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::jar-experiment-prompt.jar-experiment-prompt"
+    }
+  }
+}
