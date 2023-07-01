@@ -18,7 +18,7 @@
     "description": {
       "type": "string"
     },
-    "prompts": {
+    "prompt": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::jar-experiment-prompt.jar-experiment-prompt"
