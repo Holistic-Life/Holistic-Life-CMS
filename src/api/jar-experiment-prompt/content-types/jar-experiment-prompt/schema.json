@@ -18,7 +18,7 @@
     "topic": {
       "type": "relation",
       "relation": "manyToOne",
-      "target": "api::jar-experiment.jar-experiment",
+      "target": "api::jar-experiment-topic.jar-experiment-topic",
       "inversedBy": "prompts"
     }
   }

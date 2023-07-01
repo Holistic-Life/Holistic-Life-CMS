@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "jar_experiments",
+  "collectionName": "jar_experiment_topics",
   "info": {
-    "singularName": "jar-experiment",
-    "pluralName": "jar-experiments",
-    "displayName": "JarExperimentTopic",
-    "description": ""
+    "singularName": "jar-experiment-topic",
+    "pluralName": "jar-experiment-topics",
+    "displayName": "JarExperimentTopic"
   },
   "options": {
     "draftAndPublish": true
