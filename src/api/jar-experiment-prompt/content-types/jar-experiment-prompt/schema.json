@@ -15,7 +15,7 @@
     "content": {
       "type": "string"
     },
-    "prompt": {
+    "topic": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::jar-experiment.jar-experiment"
