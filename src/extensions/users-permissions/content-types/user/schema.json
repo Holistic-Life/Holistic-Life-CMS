@@ -95,6 +95,12 @@
     },
     "attribution": {
       "type": "string"
+    },
+    "jar_experiment_answered_prompts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::jar-experiment-answered-prompt.jar-experiment-answered-prompt",
+      "mappedBy": "user"
     }
   }
 }

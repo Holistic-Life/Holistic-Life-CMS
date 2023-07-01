@@ -18,10 +18,11 @@
     "description": {
       "type": "string"
     },
-    "prompt": {
+    "prompts": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::jar-experiment-prompt.jar-experiment-prompt"
+      "target": "api::jar-experiment-prompt.jar-experiment-prompt",
+      "mappedBy": "topic"
     }
   }
 }

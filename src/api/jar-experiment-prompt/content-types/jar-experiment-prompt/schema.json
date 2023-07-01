@@ -17,8 +17,9 @@
     },
     "topic": {
       "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::jar-experiment.jar-experiment"
+      "relation": "manyToOne",
+      "target": "api::jar-experiment.jar-experiment",
+      "inversedBy": "prompts"
     }
   }
 }

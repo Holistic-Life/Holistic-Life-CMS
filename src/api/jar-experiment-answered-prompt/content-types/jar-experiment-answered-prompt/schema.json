@@ -4,7 +4,8 @@
   "info": {
     "singularName": "jar-experiment-answered-prompt",
     "pluralName": "jar-experiment-answered-prompts",
-    "displayName": "JarExperimentAnsweredPrompt"
+    "displayName": "JarExperimentAnsweredPrompt",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -21,8 +22,9 @@
     },
     "user": {
       "type": "relation",
-      "relation": "oneToOne",
-      "target": "plugin::users-permissions.user"
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "jar_experiment_answered_prompts"
     }
   }
 }
